@@ -1,4 +1,4 @@
-const { BLOG_URL } = process.env
+const { BLOG_URL, DOCS_URL } = process.env
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
