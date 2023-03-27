@@ -1,0 +1,3 @@
+node_modules/
+.next/build-manifest.json .next/cache .next/package.json .next/react-loadable-manifest.json .next/server .next/static .next/trace
+.next/
