@@ -1,21 +1,14 @@
 import Link from 'next/link'
-import dynamic from 'next/dynamic'
 
-const Header = dynamic(import('../components/Header'))
-
-export default function Home() {
+export default function Docs() {
   return (
     <div>
-      <Header />
-      <p>This is our homepage</p>
+      <p>This is Documentation page</p>
       <div>
         <a href="/blog">Blog</a>
       </div>
       <div>
         <Link href="/about">About us</Link>
-      </div>
-      <div>
-        <Link href="/docs">Docs</Link>
       </div>
     </div>
   )
